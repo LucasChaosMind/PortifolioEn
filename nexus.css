@@ -51,7 +51,7 @@ p{
 .section-title span{
     color: var(--upcolor);
 }
-/*Hero Section*/
+/* Hero Section */
 #hero{
     background-image: url('./img/hero-bg.png');
     background-size: cover;
@@ -133,9 +133,9 @@ p{
     background-color: var(--upcolor);
     box-shadow:  2.5px 2px #fff;
 }
-/*End Hero Section*/
+/* End Hero Section */
 
-/*Services Section*/
+/* Services Section */
 #services{
    background-color: var(--back);
 }
@@ -199,9 +199,9 @@ p{
     border: 1px solid var(--upcolor);
     padding: 2px 15px;
 }
-/*End Services Section*/
+/* End Services Section */
 
-/*Pojects Section*/
+/* Pojects Section */
 #project{
     background-color:var(--back);
 }
@@ -273,9 +273,9 @@ p{
     text-shadow: 1px 1px #fff;
     background-color: var(--upcolor);
 }
-/*End Pojects Section*/
+/* End Pojects Section */
 
-/*Section Future Tecnologies*/
+/* Section Future Tecnologies */
 #future .future{
     display: flex;
     flex-direction: row;
@@ -319,7 +319,7 @@ p{
 .nexx p{
     animation: color-nexx 12s linear infinite;
 }
-/*End Section Future Tecnologies*/
+/* End Section Future Tecnologies */
 
 /*Section About*/
 /*
@@ -382,9 +382,9 @@ p{
     border: 7px solid var(--upcolor);
     z-index: -1;
 }
-/*End Section About*/
+/* End Section About */
 
-/*Section Contact*/
+/* Section Contact */
 #contact .contact{
     flex-direction: column;
     max-width: 1200px;
@@ -437,8 +437,8 @@ footer h3{
     color: var(--upcolor);
     font-size: 1.2rem;
 }
-/*ENd Section Contact*/
-/*KeyFrames*/
+/* End Section Contact */
+/* KeyFrames */
 @keyframes text_revealing_box {
     50%{
         width: 100%;
@@ -461,41 +461,24 @@ footer h3{
     }
 }
 @keyframes light {
-    0%{
+    25%{
         box-shadow: 0 0 6px var(--upcolor);
-    }
-    50%{
-        
-        box-shadow: 0 0 6px #993399;
     }
     75%{
-        box-shadow: 0 0 6px var(--upcolor);
-    }
-    100%{
-        
         box-shadow: 0 0 6px #993399;
     }
 }
 @keyframes color-nexx{
-    0%{
+    25%{
         color: var(--upcolor);
-    }
-    50%{
-        
-        color: #993399;
     }
     75%{
-        color: var(--upcolor);
-    }
-    100%{
-        
         color: #993399;
     }
 }
-/*End Keyframes*/
+/* End Keyframes */
 
-/*Media*/
-/**media for 450 a 700*/
+/** Media for 450px */
 @media (max-width: 450px){
     #hero h1{
         font-size: 2.6rem;
@@ -547,4 +530,4 @@ footer h3{
         width: 75%;
     } 
 }
-/*End Media*/
+/* End Media */
